@@ -6,7 +6,7 @@ import pyclesperanto_prototype as cle
 import pandas as pd
 import matplotlib.pyplot as plt
 
-testImage = cv2.imread('/Users/badalchowdhary/PycharmProjects/DFD_ESI/venv/IMages/1.jpg')
+testImage = cv2.imread('DFD_ESI/IMages/1.jpg')
 cropImg = testImage[1050:1350, 1450:1780]
 # bead_image = imread('/Users/badalchowdhary/PycharmProjects/DFD_ESI/venv/IMages/1.jpg')
 print(cropImg.shape)
